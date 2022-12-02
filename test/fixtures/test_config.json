@@ -1,0 +1,19 @@
+{
+    "price": {
+        "VOUCHER": 5.00,
+        "TSHIRT": 20.00,
+        "MUG": 7.50
+    },
+    "bulk_num": {
+        "VOUCHER": 2,
+        "TSHIRT": 3
+    },
+    "varrying_discount": {
+        "VOUCHER": 5,
+        "TSHIRT": 1
+    },
+    "promotion": {
+        "VOUCHER": "t = (q * p) - d",
+        "TSHIRT": "t = q * (p - d)"
+    }
+}
