@@ -20,14 +20,14 @@ The concept:
 
 Clone this project from here: 
 * From the app directory run 
-  --mix deps.get
-  --mix compile
+  * mix deps.get
+  * mix compile
 * There are test to run them use:
-  --mix test
+  * mix test
 
 # How to Use the Project
 Run in iteractive mode:
-   --ies -S mix
+  * ies -S mix
    Initialize your cart(contains items that one wants to buy)
    example: items = ["VOUCHER","VOUCHER"]
     your_cost = Till.sub_total(items)
