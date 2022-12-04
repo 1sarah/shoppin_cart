@@ -29,7 +29,7 @@ Clone this project from here:
 Run in iteractive mode:
   * ies -S mix
    Initialize your cart(contains items that one wants to buy)
-   example: items = ["VOUCHER","VOUCHER"]
+    example: items = ["VOUCHER","VOUCHER"]
     your_cost = Till.sub_total(items)
      amount should be 5.0
 
