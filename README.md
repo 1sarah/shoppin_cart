@@ -16,8 +16,26 @@ The concept:
 * A `Till` calculates the cost of a cart's items.
    --Evaluates each item discount according to the rules in the json configuration file
 
-* A `Checkout` program handles the input and output.
-   --CMI- starts with inputs then cart creation then calculates the till then outputs the final cost
+# How to Install and Run the Project
+
+Clone this project from here: 
+* From the app directory run 
+  --mix deps.get
+  --mix compile
+* There are test to run them use:
+  --mix test
+
+# How to Use the Project
+Run in iteractive mode:
+   --ies -S mix
+   Initialize your cart(contains items that one wants to buy)
+   example: items = ["VOUCHER","VOUCHER"]
+    your_cost = Till.sub_total(items)
+     amount should be 5.0
+
+
+    
+
 
 
 

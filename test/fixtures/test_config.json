@@ -9,8 +9,8 @@
         "TSHIRT": 3
     },
     "varrying_discount": {
-        "VOUCHER": 5,
-        "TSHIRT": 1
+        "VOUCHER": 5.00,
+        "TSHIRT": 1.00
     },
     "promotion": {
         "VOUCHER": "t = (q * p) - d",
